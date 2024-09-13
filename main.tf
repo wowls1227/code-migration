@@ -1,13 +1,13 @@
-(* terraform { 
-  cloud { 
-    hostname = "jjtfe.ddimtech.click" 
-    organization = "test" 
-
-    workspaces { 
-      name = "dest-workspace" 
-    } 
-  } 
-} *)
+# terraform { 
+#  cloud { 
+#    hostname = "jjtfe.ddimtech.click" 
+#    organization = "test" 
+#
+#    workspaces { 
+#      name = "dest-workspace" 
+#    } 
+#  } 
+#}
 
 provider "aws" {
     region = "ap-northeast-2"
